@@ -18,7 +18,7 @@ package org.springframework.web.util;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.util.FileCopyUtils;
 
 import static org.junit.Assert.*;

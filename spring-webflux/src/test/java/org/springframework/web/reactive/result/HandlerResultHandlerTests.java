@@ -24,8 +24,8 @@ import org.junit.Test;
 
 import org.springframework.core.ReactiveAdapterRegistry;
 import org.springframework.http.MediaType;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.web.reactive.HandlerMapping;
 import org.springframework.web.reactive.accept.FixedContentTypeResolver;
 import org.springframework.web.reactive.accept.HeaderContentTypeResolver;

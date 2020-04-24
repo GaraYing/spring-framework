@@ -21,8 +21,8 @@ import javax.servlet.ServletContextEvent;
 import org.junit.Test;
 
 import org.springframework.beans.factory.support.GenericBeanDefinition;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockServletContext;
 import org.springframework.tests.sample.beans.DerivedTestBean;
 import org.springframework.web.context.ContextCleanupListener;
 import org.springframework.web.context.WebApplicationContext;

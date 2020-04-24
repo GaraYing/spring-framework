@@ -26,8 +26,8 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
 
 import static org.junit.Assert.*;
 

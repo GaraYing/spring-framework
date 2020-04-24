@@ -26,7 +26,7 @@ import java.util.Map;
 import org.junit.Test;
 
 import org.springframework.core.SpringProperties;
-import org.springframework.mock.env.MockPropertySource;
+import com.gara.env.MockPropertySource;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

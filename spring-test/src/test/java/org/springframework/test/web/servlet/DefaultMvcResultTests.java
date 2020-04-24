@@ -20,7 +20,7 @@ import java.util.concurrent.CountDownLatch;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 
 /**
  * Test fixture for {@link DefaultMvcResult}.

@@ -21,7 +21,7 @@ import javax.servlet.ServletContextEvent;
 import org.junit.Test;
 
 import org.springframework.context.annotation.ClassPathBeanDefinitionScanner;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockServletContext;
 import org.springframework.web.context.ContextLoader;
 import org.springframework.web.context.ContextLoaderListener;
 

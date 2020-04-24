@@ -21,7 +21,7 @@ import org.junit.Test;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.GenericApplicationContext;
-import org.springframework.mock.env.MockPropertySource;
+import com.gara.env.MockPropertySource;
 import org.springframework.tests.sample.beans.TestBean;
 
 import static org.hamcrest.CoreMatchers.*;

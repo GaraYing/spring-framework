@@ -40,7 +40,7 @@ import org.springframework.jmx.export.metadata.InvalidMetadataException;
 import org.springframework.jmx.support.MBeanServerFactoryBean;
 import org.springframework.jmx.support.ObjectNameManager;
 import org.springframework.jmx.support.RegistrationPolicy;
-import org.springframework.mock.env.MockEnvironment;
+import com.gara.env.MockEnvironment;
 
 import static org.junit.Assert.*;
 

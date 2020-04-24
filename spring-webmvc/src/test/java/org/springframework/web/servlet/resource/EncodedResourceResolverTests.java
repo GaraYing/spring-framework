@@ -37,7 +37,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.util.FileCopyUtils;
 
 import static org.junit.Assert.*;

@@ -18,7 +18,7 @@ package org.springframework.test.web.servlet;
 
 import javax.servlet.ServletContext;
 
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 
 /**
  * Builds a {@link MockHttpServletRequest}.

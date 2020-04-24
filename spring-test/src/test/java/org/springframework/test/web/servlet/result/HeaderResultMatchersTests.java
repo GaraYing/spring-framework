@@ -21,8 +21,8 @@ import java.time.ZonedDateTime;
 import org.junit.Test;
 
 import org.springframework.http.HttpHeaders;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.StubMvcResult;
 

@@ -26,10 +26,10 @@ import org.junit.rules.ExpectedException;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
-import org.springframework.mock.web.test.MockServletConfig;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockServletConfig;
+import com.gara.web.test.MockServletContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;

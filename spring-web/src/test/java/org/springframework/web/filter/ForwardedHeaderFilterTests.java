@@ -17,7 +17,6 @@
 package org.springframework.web.filter;
 
 import java.io.IOException;
-import java.net.URI;
 import java.util.Enumeration;
 
 import javax.servlet.DispatcherType;
@@ -31,9 +30,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockFilterChain;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockFilterChain;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;

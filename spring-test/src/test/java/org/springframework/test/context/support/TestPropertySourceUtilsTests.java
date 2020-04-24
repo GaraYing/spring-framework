@@ -28,8 +28,8 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.ResourceLoader;
-import org.springframework.mock.env.MockEnvironment;
-import org.springframework.mock.env.MockPropertySource;
+import com.gara.env.MockEnvironment;
+import com.gara.env.MockPropertySource;
 import org.springframework.test.context.TestPropertySource;
 
 import static org.hamcrest.CoreMatchers.*;

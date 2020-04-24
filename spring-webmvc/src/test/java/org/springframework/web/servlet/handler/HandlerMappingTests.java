@@ -29,7 +29,7 @@ import org.junit.Test;
 import org.mockito.Mockito;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.web.HttpRequestHandler;
 import org.springframework.web.context.support.StaticWebApplicationContext;
 import org.springframework.web.servlet.HandlerExecutionChain;

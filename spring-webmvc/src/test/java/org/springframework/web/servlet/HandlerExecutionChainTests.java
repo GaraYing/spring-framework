@@ -19,8 +19,8 @@ package org.springframework.web.servlet;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
 
 import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;

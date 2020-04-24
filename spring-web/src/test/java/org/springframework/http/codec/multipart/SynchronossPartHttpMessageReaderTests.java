@@ -40,8 +40,8 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.http.client.MultipartBodyBuilder;
 import org.springframework.http.server.reactive.ServerHttpRequest;
-import org.springframework.mock.http.client.reactive.test.MockClientHttpRequest;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.http.client.reactive.test.MockClientHttpRequest;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
 import org.springframework.util.MultiValueMap;
 
 import static java.util.Collections.emptyMap;

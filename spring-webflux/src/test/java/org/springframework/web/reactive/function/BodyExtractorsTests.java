@@ -60,8 +60,8 @@ import org.springframework.http.codec.multipart.SynchronossPartHttpMessageReader
 import org.springframework.http.codec.xml.Jaxb2XmlDecoder;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.http.server.reactive.ServerHttpResponse;
-import org.springframework.mock.http.client.reactive.test.MockClientHttpResponse;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.http.client.reactive.test.MockClientHttpResponse;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
 import org.springframework.util.MultiValueMap;
 
 import static org.junit.Assert.*;

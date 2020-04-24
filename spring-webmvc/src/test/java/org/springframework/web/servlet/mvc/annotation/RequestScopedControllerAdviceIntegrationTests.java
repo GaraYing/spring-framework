@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockServletContext;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.context.annotation.RequestScope;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

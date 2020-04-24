@@ -37,7 +37,7 @@ import org.springframework.core.io.buffer.support.DataBufferTestUtils;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.json.Jackson2JsonEncoder;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpResponse;
+import com.gara.http.server.reactive.test.MockServerHttpResponse;
 
 import static org.junit.Assert.*;
 import static org.springframework.core.ResolvableType.forClass;

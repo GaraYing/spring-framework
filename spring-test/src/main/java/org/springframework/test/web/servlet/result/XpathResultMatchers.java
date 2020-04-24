@@ -24,7 +24,7 @@ import org.hamcrest.Matcher;
 import org.w3c.dom.Node;
 
 import org.springframework.lang.Nullable;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.util.XpathExpectationsHelper;
 import org.springframework.test.web.servlet.ResultMatcher;
 

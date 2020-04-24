@@ -35,8 +35,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import org.springframework.http.MediaType;
-import org.springframework.mock.web.MockMultipartFile;
-import org.springframework.mock.web.MockPart;
+import com.gara.web.MockMultipartFile;
+import com.gara.web.MockPart;
 import org.springframework.stereotype.Controller;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.ui.Model;

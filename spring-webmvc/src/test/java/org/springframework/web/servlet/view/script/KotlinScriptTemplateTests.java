@@ -29,9 +29,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ResourceBundleMessageSource;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockServletContext;
 import org.springframework.web.context.WebApplicationContext;
 
 import static org.junit.Assert.*;

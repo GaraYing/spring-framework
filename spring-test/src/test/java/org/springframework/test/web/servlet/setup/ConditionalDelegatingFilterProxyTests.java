@@ -26,10 +26,10 @@ import javax.servlet.ServletResponse;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.springframework.mock.web.MockFilterChain;
-import org.springframework.mock.web.MockFilterConfig;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockFilterChain;
+import com.gara.web.MockFilterConfig;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletResponse;
 
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;

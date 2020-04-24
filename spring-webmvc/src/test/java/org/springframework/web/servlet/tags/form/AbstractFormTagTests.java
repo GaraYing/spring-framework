@@ -18,8 +18,8 @@ package org.springframework.web.servlet.tags.form;
 
 import javax.servlet.jsp.JspException;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockPageContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockPageContext;
 import org.springframework.tests.sample.beans.TestBean;
 
 /**

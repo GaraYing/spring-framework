@@ -26,8 +26,8 @@ import javax.servlet.jsp.JspException;
 
 import org.junit.Before;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockPageContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockPageContext;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.Errors;
 import org.springframework.web.context.WebApplicationContext;

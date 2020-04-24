@@ -22,7 +22,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import org.springframework.http.MediaType;
-import org.springframework.mock.http.client.MockClientHttpRequest;
+import com.gara.http.client.MockClientHttpRequest;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 

@@ -37,10 +37,10 @@ import org.springframework.http.server.reactive.HttpHandler;
 import org.springframework.http.server.reactive.HttpHeadResponseDecorator;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.http.server.reactive.ServerHttpResponse;
-import org.springframework.mock.http.client.reactive.MockClientHttpRequest;
-import org.springframework.mock.http.client.reactive.MockClientHttpResponse;
-import org.springframework.mock.http.server.reactive.MockServerHttpRequest;
-import org.springframework.mock.http.server.reactive.MockServerHttpResponse;
+import com.gara.http.client.reactive.MockClientHttpRequest;
+import com.gara.http.client.reactive.MockClientHttpResponse;
+import com.gara.http.server.reactive.MockServerHttpRequest;
+import com.gara.http.server.reactive.MockServerHttpResponse;
 import org.springframework.util.Assert;
 import org.springframework.util.MultiValueMap;
 

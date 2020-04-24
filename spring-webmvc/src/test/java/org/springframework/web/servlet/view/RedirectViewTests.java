@@ -27,9 +27,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockServletContext;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.context.ContextLoader;

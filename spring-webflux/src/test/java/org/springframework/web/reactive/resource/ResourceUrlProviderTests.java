@@ -33,14 +33,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
-import org.springframework.mock.web.test.MockServletContext;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.web.test.MockServletContext;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.reactive.handler.SimpleUrlHandlerMapping;
 import org.springframework.web.util.pattern.PathPattern;
 
 import static org.junit.Assert.*;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.*;
 
 /**
  * Unit tests for {@link ResourceUrlProvider}.

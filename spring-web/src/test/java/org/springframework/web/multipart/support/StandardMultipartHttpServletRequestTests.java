@@ -23,8 +23,8 @@ import org.junit.Test;
 
 import org.springframework.http.MockHttpOutputMessage;
 import org.springframework.http.converter.FormHttpMessageConverter;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockPart;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockPart;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.multipart.MultipartFile;

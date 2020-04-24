@@ -40,7 +40,7 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.codec.DecoderHttpMessageReader;
 import org.springframework.http.codec.HttpMessageReader;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.method.ResolvableMethod;
 import org.springframework.web.reactive.BindingContext;
@@ -50,7 +50,7 @@ import org.springframework.web.server.ServerWebInputException;
 import static org.junit.Assert.*;
 import static org.springframework.core.ResolvableType.forClassWithGenerics;
 import static org.springframework.http.MediaType.TEXT_PLAIN;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.post;
+import static com.gara.http.server.reactive.test.MockServerHttpRequest.post;
 
 /**
  * Unit tests for {@link HttpEntityArgumentResolver}.When adding a test also

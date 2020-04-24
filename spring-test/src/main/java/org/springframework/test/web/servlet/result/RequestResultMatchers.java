@@ -23,7 +23,7 @@ import javax.servlet.http.HttpSession;
 
 import org.hamcrest.Matcher;
 
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.util.Assert;
 import org.springframework.web.context.request.async.DeferredResult;

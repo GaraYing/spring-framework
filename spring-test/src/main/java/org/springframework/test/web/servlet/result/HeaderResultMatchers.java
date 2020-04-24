@@ -22,7 +22,7 @@ import java.util.List;
 import org.hamcrest.Matcher;
 
 import org.springframework.http.HttpHeaders;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.ResultMatcher;
 
 import static org.hamcrest.MatcherAssert.assertThat;

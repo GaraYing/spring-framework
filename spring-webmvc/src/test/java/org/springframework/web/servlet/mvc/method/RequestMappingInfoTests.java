@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.junit.Test;
 
 import org.springframework.http.HttpHeaders;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import static java.util.Arrays.asList;

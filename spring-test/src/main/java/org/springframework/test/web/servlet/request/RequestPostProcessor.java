@@ -16,7 +16,7 @@
 
 package org.springframework.test.web.servlet.request;
 
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 
 /**
  * Extension point for applications or 3rd party libraries that wish to further

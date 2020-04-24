@@ -31,8 +31,8 @@ import org.springframework.core.env.PropertySource;
 import org.springframework.core.env.StandardEnvironment;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
-import org.springframework.mock.env.MockEnvironment;
-import org.springframework.mock.env.MockPropertySource;
+import com.gara.env.MockEnvironment;
+import com.gara.env.MockPropertySource;
 import org.springframework.tests.sample.beans.TestBean;
 
 import static org.hamcrest.CoreMatchers.*;

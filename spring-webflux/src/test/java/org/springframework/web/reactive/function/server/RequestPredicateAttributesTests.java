@@ -23,8 +23,8 @@ import org.junit.Test;
 
 import org.springframework.core.codec.StringDecoder;
 import org.springframework.http.codec.DecoderHttpMessageReader;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.web.test.server.MockServerWebExchange;
 
 import static org.junit.Assert.*;
 

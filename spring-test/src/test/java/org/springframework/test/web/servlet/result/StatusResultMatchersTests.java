@@ -25,8 +25,8 @@ import org.junit.Test;
 
 import org.springframework.core.Conventions;
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.ResultMatcher;
 import org.springframework.test.web.servlet.StubMvcResult;

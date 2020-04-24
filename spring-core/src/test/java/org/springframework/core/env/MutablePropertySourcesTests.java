@@ -20,7 +20,7 @@ import java.util.Iterator;
 
 import org.junit.Test;
 
-import org.springframework.mock.env.MockPropertySource;
+import com.gara.env.MockPropertySource;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;

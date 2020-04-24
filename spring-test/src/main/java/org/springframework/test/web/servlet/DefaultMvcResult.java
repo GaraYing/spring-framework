@@ -21,8 +21,8 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
 import org.springframework.lang.Nullable;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.util.Assert;
 import org.springframework.web.servlet.FlashMap;
 import org.springframework.web.servlet.HandlerInterceptor;

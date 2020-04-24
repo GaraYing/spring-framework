@@ -35,7 +35,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.env.Environment;
-import org.springframework.mock.env.MockEnvironment;
+import com.gara.env.MockEnvironment;
 
 import static org.junit.Assert.*;
 import static org.springframework.cache.CacheTestUtils.*;

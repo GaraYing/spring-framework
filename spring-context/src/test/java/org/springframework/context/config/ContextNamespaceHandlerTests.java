@@ -27,7 +27,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.mock.env.MockEnvironment;
+import com.gara.env.MockEnvironment;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

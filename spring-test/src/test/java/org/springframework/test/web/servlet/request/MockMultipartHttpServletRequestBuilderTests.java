@@ -19,8 +19,8 @@ package org.springframework.test.web.servlet.request;
 import org.junit.Test;
 
 import org.springframework.http.HttpMethod;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockServletContext;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockServletContext;
 
 import static org.junit.Assert.*;
 

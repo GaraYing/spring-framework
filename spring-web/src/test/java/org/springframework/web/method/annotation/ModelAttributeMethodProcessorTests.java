@@ -25,7 +25,7 @@ import org.junit.Test;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.SynthesizingMethodParameter;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;

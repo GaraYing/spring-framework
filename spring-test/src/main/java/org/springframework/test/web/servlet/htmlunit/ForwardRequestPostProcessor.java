@@ -16,7 +16,7 @@
 
 package org.springframework.test.web.servlet.htmlunit;
 
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 import org.springframework.test.web.servlet.request.RequestPostProcessor;
 import org.springframework.util.Assert;
 

@@ -38,7 +38,7 @@ import org.springframework.http.client.reactive.ClientHttpResponse;
 import org.springframework.http.server.reactive.HttpHandler;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.http.server.reactive.ServerHttpResponse;
-import org.springframework.mock.http.server.reactive.MockServerHttpRequest;
+import com.gara.http.server.reactive.MockServerHttpRequest;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.junit.Assert.assertEquals;

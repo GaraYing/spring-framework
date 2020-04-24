@@ -23,7 +23,7 @@ import javax.servlet.Filter;
 import javax.servlet.ServletContext;
 
 import org.springframework.lang.Nullable;
-import org.springframework.mock.web.MockServletConfig;
+import com.gara.web.MockServletConfig;
 import org.springframework.test.web.servlet.DispatcherServletCustomizer;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MockMvcBuilder;

@@ -27,8 +27,8 @@ import org.junit.Test;
 import reactor.core.publisher.Mono;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpResponse;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.http.server.reactive.test.MockServerHttpResponse;
 
 import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;

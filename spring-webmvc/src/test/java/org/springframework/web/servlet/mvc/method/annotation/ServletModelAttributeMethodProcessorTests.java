@@ -26,7 +26,7 @@ import org.junit.Test;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.core.convert.support.DefaultConversionService;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.support.ConfigurableWebBindingInitializer;

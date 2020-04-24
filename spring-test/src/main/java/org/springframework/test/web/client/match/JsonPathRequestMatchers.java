@@ -23,7 +23,7 @@ import com.jayway.jsonpath.JsonPath;
 import org.hamcrest.Matcher;
 
 import org.springframework.http.client.ClientHttpRequest;
-import org.springframework.mock.http.client.MockClientHttpRequest;
+import com.gara.http.client.MockClientHttpRequest;
 import org.springframework.test.util.JsonPathExpectationsHelper;
 import org.springframework.test.web.client.RequestMatcher;
 

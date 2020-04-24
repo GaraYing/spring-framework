@@ -35,8 +35,8 @@ import org.dom4j.io.SAXReader;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockPageContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockPageContext;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.validation.BeanPropertyBindingResult;
 import org.springframework.validation.BindingResult;

@@ -21,7 +21,7 @@ import java.util.HashSet;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.server.MockWebSession;
+import com.gara.web.test.server.MockWebSession;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.SessionAttributes;

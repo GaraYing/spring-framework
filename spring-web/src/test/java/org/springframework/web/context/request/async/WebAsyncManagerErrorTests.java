@@ -25,9 +25,9 @@ import org.junit.Before;
 import org.junit.Test;
 
 import org.springframework.core.task.AsyncTaskExecutor;
-import org.springframework.mock.web.test.MockAsyncContext;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockAsyncContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
 import org.springframework.web.context.request.NativeWebRequest;
 
 import static org.junit.Assert.assertEquals;

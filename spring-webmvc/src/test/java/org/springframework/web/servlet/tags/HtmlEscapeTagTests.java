@@ -23,7 +23,7 @@ import javax.servlet.jsp.tagext.Tag;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockServletContext;
 import org.springframework.web.util.WebUtils;
 
 import static org.junit.Assert.*;

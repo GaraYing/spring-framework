@@ -20,11 +20,10 @@ import java.util.Collection;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.web.server.ServerWebExchange;
 
 import static org.junit.Assert.*;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.*;
 
 /**
  * Unit tests for {@link ParamsRequestCondition}.

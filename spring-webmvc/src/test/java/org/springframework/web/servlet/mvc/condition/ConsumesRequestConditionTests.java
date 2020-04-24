@@ -21,7 +21,7 @@ import java.util.Collections;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.web.servlet.mvc.condition.ConsumesRequestCondition.ConsumeMediaTypeExpression;
 
 import static org.junit.Assert.*;

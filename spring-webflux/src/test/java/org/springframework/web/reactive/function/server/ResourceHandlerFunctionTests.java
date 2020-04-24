@@ -32,9 +32,9 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.codec.HttpMessageWriter;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpResponse;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.http.server.reactive.test.MockServerHttpResponse;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.web.reactive.result.view.ViewResolver;
 
 import static org.junit.Assert.*;

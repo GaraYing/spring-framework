@@ -27,7 +27,7 @@ import org.junit.Test;
 import org.junit.rules.TestName;
 
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.mock.env.MockEnvironment;
+import com.gara.env.MockEnvironment;
 
 import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;

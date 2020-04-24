@@ -22,7 +22,7 @@ import org.junit.rules.ExpectedException;
 
 import org.springframework.beans.DirectFieldAccessor;
 import org.springframework.context.support.StaticApplicationContext;
-import org.springframework.mock.web.MockServletContext;
+import com.gara.web.MockServletContext;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.StaticWebApplicationContext;

@@ -51,7 +51,7 @@ import org.springframework.http.codec.HttpMessageWriter;
 import org.springframework.http.codec.ResourceHttpMessageWriter;
 import org.springframework.http.codec.json.Jackson2JsonEncoder;
 import org.springframework.http.codec.xml.Jaxb2XmlEncoder;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.reactive.HandlerResult;
 import org.springframework.web.reactive.accept.RequestedContentTypeResolver;
@@ -61,7 +61,6 @@ import static org.junit.Assert.*;
 import static org.springframework.core.ResolvableType.*;
 import static org.springframework.http.MediaType.*;
 import static org.springframework.http.ResponseEntity.*;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.*;
 import static org.springframework.web.method.ResolvableMethod.*;
 import static org.springframework.web.reactive.HandlerMapping.*;
 

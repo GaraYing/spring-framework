@@ -41,8 +41,8 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.MediaType;
 import org.springframework.http.client.MultipartBodyBuilder;
 import org.springframework.http.codec.ClientCodecConfigurer;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpResponse;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.http.server.reactive.test.MockServerHttpResponse;
 import org.springframework.util.MultiValueMap;
 
 import static org.junit.Assert.*;

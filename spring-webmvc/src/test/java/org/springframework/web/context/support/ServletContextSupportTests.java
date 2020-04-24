@@ -28,7 +28,7 @@ import org.junit.Test;
 import org.springframework.beans.MutablePropertyValues;
 import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.core.io.Resource;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockServletContext;
 import org.springframework.tests.sample.beans.TestBean;
 
 import static org.junit.Assert.*;

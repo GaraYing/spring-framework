@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.web.server.ServerWebExchange;
 import org.springframework.web.util.pattern.PathPattern;
 import org.springframework.web.util.pattern.PathPatternParser;
@@ -30,7 +30,7 @@ import org.springframework.web.util.pattern.PathPatternParser;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.get;
+import static com.gara.http.server.reactive.test.MockServerHttpRequest.get;
 
 /**
  * Unit tests for {@link PatternsRequestCondition}.

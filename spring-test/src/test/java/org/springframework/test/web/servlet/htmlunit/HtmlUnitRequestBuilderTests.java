@@ -39,9 +39,9 @@ import org.apache.http.auth.UsernamePasswordCredentials;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpSession;
-import org.springframework.mock.web.MockServletContext;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpSession;
+import com.gara.web.MockServletContext;
 import org.springframework.test.util.ReflectionTestUtils;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;

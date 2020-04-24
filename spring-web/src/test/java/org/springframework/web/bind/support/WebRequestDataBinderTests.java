@@ -30,9 +30,9 @@ import org.junit.Test;
 
 import org.springframework.beans.PropertyValue;
 import org.springframework.beans.PropertyValues;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockMultipartFile;
-import org.springframework.mock.web.test.MockMultipartHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockMultipartFile;
+import com.gara.web.test.MockMultipartHttpServletRequest;
 import org.springframework.tests.sample.beans.ITestBean;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.web.bind.ServletRequestParameterPropertyValues;

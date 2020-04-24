@@ -20,7 +20,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import org.springframework.http.HttpMethod;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 
 /**
  * Unit tests for {@link UrlBasedCorsConfigurationSource}.

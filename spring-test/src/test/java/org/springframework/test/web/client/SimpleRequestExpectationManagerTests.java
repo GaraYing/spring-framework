@@ -26,7 +26,7 @@ import org.junit.rules.ExpectedException;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.client.ClientHttpRequest;
-import org.springframework.mock.http.client.MockClientHttpRequest;
+import com.gara.http.client.MockClientHttpRequest;
 
 import static org.junit.Assert.*;
 import static org.springframework.http.HttpMethod.*;

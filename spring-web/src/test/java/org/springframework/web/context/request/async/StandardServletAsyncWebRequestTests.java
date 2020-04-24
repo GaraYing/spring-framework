@@ -24,9 +24,9 @@ import javax.servlet.AsyncEvent;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockAsyncContext;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockAsyncContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.junit.Assert.assertEquals;

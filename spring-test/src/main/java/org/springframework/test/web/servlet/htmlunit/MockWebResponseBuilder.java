@@ -27,7 +27,7 @@ import com.gargoylesoftware.htmlunit.WebResponseData;
 import com.gargoylesoftware.htmlunit.util.NameValuePair;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
 

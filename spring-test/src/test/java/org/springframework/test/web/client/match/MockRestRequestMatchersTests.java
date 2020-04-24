@@ -23,7 +23,7 @@ import java.util.Collections;
 import org.junit.Test;
 
 import org.springframework.http.HttpMethod;
-import org.springframework.mock.http.client.MockClientHttpRequest;
+import com.gara.http.client.MockClientHttpRequest;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;

@@ -30,8 +30,8 @@ import org.mockito.Mockito;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.StubMvcResult;
 import org.springframework.util.Assert;
 import org.springframework.util.LinkedMultiValueMap;

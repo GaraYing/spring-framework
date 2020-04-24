@@ -16,7 +16,7 @@
 
 package org.springframework.test.web.servlet;
 
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 
 /**
  * Extended variant of a {@link RequestBuilder} that applies its

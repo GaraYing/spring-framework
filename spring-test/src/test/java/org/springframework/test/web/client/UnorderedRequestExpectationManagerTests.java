@@ -19,6 +19,7 @@ package org.springframework.test.web.client;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import com.gara.http.client.MockAsyncClientHttpRequest;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -122,7 +123,7 @@ public class UnorderedRequestExpectationManagerTests {
 	@SuppressWarnings("deprecation")
 	private ClientHttpRequest createRequest(HttpMethod method, String url) {
 		try {
-			return new org.springframework.mock.http.client.MockAsyncClientHttpRequest(method,  new URI(url));
+			return new MockAsyncClientHttpRequest(method,  new URI(url));
 		}
 		catch (URISyntaxException ex) {
 			throw new IllegalStateException(ex);

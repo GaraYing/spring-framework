@@ -21,8 +21,8 @@ import javax.servlet.ServletRequestEvent;
 import org.junit.Test;
 
 import org.springframework.core.task.MockRunnable;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockServletContext;
 
 import static org.junit.Assert.*;
 

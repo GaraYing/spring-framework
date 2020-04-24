@@ -33,14 +33,14 @@ import org.junit.runners.Parameterized.Parameters;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.web.test.server.MockServerWebExchange;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.get;
+import static com.gara.http.server.reactive.test.MockServerHttpRequest.get;
 
 /**
  * "checkNotModified" unit tests for {@link DefaultServerWebExchange}.

@@ -29,8 +29,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpRange;
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpResponse;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.http.server.reactive.test.MockServerHttpResponse;
 import org.springframework.util.MimeTypeUtils;
 import org.springframework.util.StringUtils;
 
@@ -40,7 +40,7 @@ import static org.hamcrest.Matchers.startsWith;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertThat;
 import static org.springframework.http.MediaType.TEXT_PLAIN;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.get;
+import static com.gara.http.server.reactive.test.MockServerHttpRequest.get;
 
 /**
  * Unit tests for {@link ResourceHttpMessageWriter}.

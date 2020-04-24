@@ -24,8 +24,8 @@ import reactor.core.publisher.MonoProcessor;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
-import org.springframework.mock.http.client.reactive.MockClientHttpRequest;
-import org.springframework.mock.http.client.reactive.MockClientHttpResponse;
+import com.gara.http.client.reactive.MockClientHttpRequest;
+import com.gara.http.client.reactive.MockClientHttpResponse;
 
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

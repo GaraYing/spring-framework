@@ -30,8 +30,8 @@ import com.gargoylesoftware.htmlunit.util.Cookie;
 import org.apache.http.impl.cookie.BasicClientCookie;
 
 import org.springframework.lang.Nullable;
-import org.springframework.mock.web.MockHttpServletResponse;
-import org.springframework.mock.web.MockHttpSession;
+import com.gara.web.MockHttpServletResponse;
+import com.gara.web.MockHttpSession;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.ResultActions;

@@ -21,7 +21,7 @@ import javax.servlet.jsp.tagext.Tag;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockPageContext;
+import com.gara.web.test.MockPageContext;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.web.servlet.tags.NestedPathTag;
 

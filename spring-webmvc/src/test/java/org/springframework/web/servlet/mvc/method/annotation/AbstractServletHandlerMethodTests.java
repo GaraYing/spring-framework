@@ -23,7 +23,7 @@ import org.junit.After;
 import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.lang.Nullable;
-import org.springframework.mock.web.test.MockServletConfig;
+import com.gara.web.test.MockServletConfig;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.GenericWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;

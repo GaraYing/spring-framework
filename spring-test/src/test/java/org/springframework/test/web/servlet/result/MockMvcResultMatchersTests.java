@@ -18,7 +18,7 @@ package org.springframework.test.web.servlet.result;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.StubMvcResult;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;

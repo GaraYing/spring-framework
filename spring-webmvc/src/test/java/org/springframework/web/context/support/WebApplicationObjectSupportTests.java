@@ -22,7 +22,7 @@ import org.junit.Test;
 
 import org.springframework.beans.factory.support.RootBeanDefinition;
 import org.springframework.context.support.StaticApplicationContext;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockServletContext;
 import org.springframework.web.util.WebUtils;
 
 import static org.junit.Assert.*;

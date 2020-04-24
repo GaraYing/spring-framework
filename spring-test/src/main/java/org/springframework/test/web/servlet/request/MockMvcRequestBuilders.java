@@ -20,8 +20,9 @@ import java.net.URI;
 
 import javax.servlet.DispatcherType;
 
+import com.gara.web.MockServletContext;
 import org.springframework.http.HttpMethod;
-import org.springframework.mock.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletRequest;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 
@@ -30,7 +31,7 @@ import org.springframework.test.web.servlet.RequestBuilder;
  *
  * <h3>Integration with the Spring TestContext Framework</h3>
  * <p>Methods in this class will reuse a
- * {@link org.springframework.mock.web.MockServletContext MockServletContext}
+ * {@link MockServletContext MockServletContext}
  * that was created by the Spring TestContext Framework.
  *
  * <h3>Eclipse Users</h3>

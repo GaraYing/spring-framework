@@ -29,10 +29,10 @@ import javax.servlet.ServletResponse;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockFilterConfig;
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
-import org.springframework.mock.web.test.MockServletContext;
+import com.gara.web.test.MockFilterConfig;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockServletContext;
 
 import static org.junit.Assert.*;
 

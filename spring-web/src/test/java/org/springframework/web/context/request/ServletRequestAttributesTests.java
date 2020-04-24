@@ -24,8 +24,8 @@ import javax.servlet.http.HttpSession;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpSession;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpSession;
 
 import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;

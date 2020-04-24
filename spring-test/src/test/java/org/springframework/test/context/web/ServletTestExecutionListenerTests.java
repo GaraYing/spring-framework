@@ -21,9 +21,9 @@ import org.junit.Test;
 import org.mockito.BDDMockito;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.mock.web.MockHttpServletRequest;
-import org.springframework.mock.web.MockHttpServletResponse;
-import org.springframework.mock.web.MockServletContext;
+import com.gara.web.MockHttpServletRequest;
+import com.gara.web.MockHttpServletResponse;
+import com.gara.web.MockServletContext;
 import org.springframework.test.context.TestContext;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.request.RequestAttributes;

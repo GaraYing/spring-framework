@@ -28,7 +28,7 @@ import org.springframework.context.annotation.AnnotationConfigUtils;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.FileSystemResourceLoader;
 import org.springframework.core.io.ResourceLoader;
-import org.springframework.mock.web.MockServletContext;
+import com.gara.web.MockServletContext;
 import org.springframework.test.context.MergedContextConfiguration;
 import org.springframework.test.context.support.AbstractContextLoader;
 import org.springframework.util.Assert;

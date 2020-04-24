@@ -37,8 +37,8 @@ import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
-import org.springframework.mock.http.server.reactive.test.MockServerHttpRequest;
-import org.springframework.mock.web.test.server.MockServerWebExchange;
+import com.gara.http.server.reactive.test.MockServerHttpRequest;
+import com.gara.web.test.server.MockServerWebExchange;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.ClassUtils;
 import org.springframework.util.MultiValueMap;
@@ -60,7 +60,6 @@ import org.springframework.web.util.pattern.PathPattern;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
-import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.*;
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 import static org.springframework.web.method.MvcAnnotationPredicates.*;
 import static org.springframework.web.method.ResolvableMethod.*;

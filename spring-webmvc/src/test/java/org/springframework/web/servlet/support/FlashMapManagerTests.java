@@ -28,8 +28,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.test.MockHttpServletRequest;
-import org.springframework.mock.web.test.MockHttpServletResponse;
+import com.gara.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletResponse;
 import org.springframework.web.servlet.FlashMap;
 import org.springframework.web.util.WebUtils;
 

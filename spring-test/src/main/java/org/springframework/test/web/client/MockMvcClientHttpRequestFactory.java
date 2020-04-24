@@ -21,15 +21,16 @@ import java.net.URI;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 
+import com.gara.http.client.MockAsyncClientHttpRequest;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.http.client.ClientHttpResponse;
-import org.springframework.mock.http.client.MockClientHttpRequest;
-import org.springframework.mock.http.client.MockClientHttpResponse;
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.http.client.MockClientHttpRequest;
+import com.gara.http.client.MockClientHttpResponse;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.util.Assert;
 
@@ -73,7 +74,7 @@ public class MockMvcClientHttpRequestFactory
 
 	@Override
 	public org.springframework.http.client.AsyncClientHttpRequest createAsyncRequest(URI uri, HttpMethod method) {
-		return new org.springframework.mock.http.client.MockAsyncClientHttpRequest(method, uri) {
+		return new MockAsyncClientHttpRequest(method, uri) {
 			@Override
 			protected ClientHttpResponse executeInternal() throws IOException {
 				return getClientHttpResponse(method, uri, getHeaders(), getBodyAsBytes());

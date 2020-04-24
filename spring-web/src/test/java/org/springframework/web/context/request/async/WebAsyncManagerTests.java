@@ -26,7 +26,7 @@ import org.junit.Test;
 
 import org.springframework.core.task.AsyncTaskExecutor;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 
 import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;

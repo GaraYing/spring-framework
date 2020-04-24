@@ -28,7 +28,7 @@ import com.gargoylesoftware.htmlunit.util.NameValuePair;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletResponse;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;

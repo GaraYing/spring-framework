@@ -20,7 +20,7 @@ import org.hamcrest.Matchers;
 
 import org.junit.Test;
 
-import org.springframework.mock.web.MockHttpServletResponse;
+import com.gara.web.MockHttpServletResponse;
 import org.springframework.test.web.servlet.StubMvcResult;
 
 /**

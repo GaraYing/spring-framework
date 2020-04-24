@@ -27,7 +27,7 @@ import org.junit.Test;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.util.FileCopyUtils;
 
 import static org.hamcrest.Matchers.*;

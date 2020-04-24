@@ -26,7 +26,7 @@ import org.w3c.dom.Node;
 
 import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.lang.Nullable;
-import org.springframework.mock.http.client.MockClientHttpRequest;
+import com.gara.http.client.MockClientHttpRequest;
 import org.springframework.test.util.XpathExpectationsHelper;
 import org.springframework.test.web.client.RequestMatcher;
 

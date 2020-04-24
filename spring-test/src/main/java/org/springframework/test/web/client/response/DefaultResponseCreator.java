@@ -28,7 +28,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.client.ClientHttpRequest;
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.lang.Nullable;
-import org.springframework.mock.http.client.MockClientHttpResponse;
+import com.gara.http.client.MockClientHttpResponse;
 import org.springframework.test.web.client.ResponseCreator;
 import org.springframework.util.Assert;
 

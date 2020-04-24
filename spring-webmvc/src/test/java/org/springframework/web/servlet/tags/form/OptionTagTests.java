@@ -28,8 +28,8 @@ import javax.servlet.jsp.tagext.Tag;
 import org.junit.Test;
 
 import org.springframework.beans.propertyeditors.StringArrayPropertyEditor;
-import org.springframework.mock.web.test.MockBodyContent;
-import org.springframework.mock.web.test.MockHttpServletRequest;
+import com.gara.web.test.MockBodyContent;
+import com.gara.web.test.MockHttpServletRequest;
 import org.springframework.tests.sample.beans.Colour;
 import org.springframework.tests.sample.beans.TestBean;
 import org.springframework.util.StringUtils;

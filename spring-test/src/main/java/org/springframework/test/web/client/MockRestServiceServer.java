@@ -19,6 +19,7 @@ package org.springframework.test.web.client;
 import java.io.IOException;
 import java.net.URI;
 
+import com.gara.http.client.MockAsyncClientHttpRequest;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.client.BufferingClientHttpRequestFactory;
 import org.springframework.http.client.ClientHttpRequest;
@@ -309,11 +310,11 @@ public final class MockRestServiceServer {
 			return createRequestInternal(uri, httpMethod);
 		}
 
-		private org.springframework.mock.http.client.MockAsyncClientHttpRequest createRequestInternal(URI uri, HttpMethod method) {
+		private MockAsyncClientHttpRequest createRequestInternal(URI uri, HttpMethod method) {
 			Assert.notNull(uri, "'uri' must not be null");
 			Assert.notNull(method, "'httpMethod' must not be null");
 
-			return new org.springframework.mock.http.client.MockAsyncClientHttpRequest(method, uri) {
+			return new MockAsyncClientHttpRequest(method, uri) {
 
 				@Override
 				protected ClientHttpResponse executeInternal() throws IOException {
