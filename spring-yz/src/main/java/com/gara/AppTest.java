@@ -24,5 +24,6 @@ public class AppTest {
 			String s = beanNamesIterator.next();
 			System.out.println("bean name: " + s);
 		}
+		context.close();
 	}
 }
