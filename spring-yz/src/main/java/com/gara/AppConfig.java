@@ -2,12 +2,13 @@ package com.gara;
 
 
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 /**
  * @author GARA
  */
 //@Component
-@ComponentScan(value = {"com.gara"})
+//@ComponentScan(value = {"com.gara"})
 public class AppConfig {
 
 	private Integer id;

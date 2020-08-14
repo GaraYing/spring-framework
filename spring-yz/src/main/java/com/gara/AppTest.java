@@ -12,6 +12,8 @@ public class AppTest {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+		// same as @ComponentScan(basePackages = "com.gara")
+//		context.scan("com.gara");
 		context.register(AppConfig.class);
 		context.refresh();
 		AppConfig appConfig = context.getBean(AppConfig.class);
